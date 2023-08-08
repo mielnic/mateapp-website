@@ -1,0 +1,21 @@
+{
+    "navbar":{
+        "home": "Inicio",
+        "directory": "Directory",
+        "timesheet": "Timesheet",
+        "future": "Futuro",
+        "services": "Servicios"
+    },
+
+    "hero":{
+        "solutions": "Soluciones.",
+        "smb": "<pyme>",
+        "smb_close": "</pyme>"
+    },
+
+    "wins":{
+        "simple" : "Simple.",
+        "pragmatic": "Pragmático.",
+        "efficient": "Efficiente."
+    }
+}
