@@ -21,18 +21,18 @@ const hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 ffont-inconsolata font-light ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-light ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
           {t("hero.smb")}<br className='sm:block hidden'/>{" "}
           <span className='text-gradient font-poppins font-semibold'>{t("hero.solutions")}</span>{" "}
           </h1>
-          <div className='ss:flex hidden md:mr-4 mr-0'>
+          <div className='sm:flex hidden md:mr-4 mr-20'>
             <GetStarted />
           </div>
         </div>
-        <h1 className='font-inconsolata font-light ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
+        <h1 className='font-poppins font-light ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
         {t("hero.smb_close")}
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>En ZTech nos especializamos en ciberseguridad en redes de comuniciaciones de datos. <br /> Monitoreamos, prevenimos y realizamos análisis forense de eventos, con el conjunto de herramientas mas adecuadas a cada necesidad.
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
         </p>
       </div>
 

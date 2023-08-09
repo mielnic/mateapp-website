@@ -8,14 +8,20 @@
     },
 
     "hero":{
-        "solutions": "Soluciones.",
-        "smb": "<pyme>",
-        "smb_close": "</pyme>"
+        "solutions": "simples",
+        "smb": "apps",
+        "smb_close": "profesionales",
+        "pitch_a": "MateApp es una familia de aplicaciones orientada a la pequeña empresa, estudios profesionales y asociaciones.",
+        "pitch_b": "Las Apps de MateApp proporcionan soluciones concretas a problemáticas específicas de manera eficiente y sencilla, desde una interfase minimalista y multi-dispositivo."
     },
 
     "wins":{
-        "simple" : "Simple.",
+        "simple" : "Fácil.",
         "pragmatic": "Pragmático.",
         "efficient": "Efficiente."
+    },
+
+    "Philosopy": {
+
     }
 }

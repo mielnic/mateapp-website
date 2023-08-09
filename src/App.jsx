@@ -9,6 +9,7 @@ import Club from './components/Club';
 import Files from './components/Files';
 import Services from './components/Services'
 import Footer from './components/Footer';
+import Philosophy from "./components/Philosophy";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Wins />
+          <Philosophy />
           <Directory />
           <Timesheet />
           <Club />
