@@ -9,7 +9,7 @@
 
     "hero":{
         "solutions": "business",
-        "smb": "simple",
+        "smb": "lean",
         "smb_close": "solutions",
         "pitch_a": "MateApp is a set of solutions targeted to the small business, offices and small organizations.",
         "pitch_b": "MateApps deliver solutions to specific business tasks without complexity through a minimalist responsive interface."
@@ -19,5 +19,9 @@
         "simple" : "Easy.",
         "pragmatic": "Pragmatic.",
         "efficient": "Efficient."
+    },
+
+    "philosophy": {
+        "title" : "Our Philosopy"
     }
 }

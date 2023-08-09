@@ -27,7 +27,7 @@ const FeatureCard = ({icon, title, content, index}) => (
     return (
       <section id="features" className={layout.section}>
         <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>Nuestra filosofía <br className='sm:block hidden' /> de diseño.</h2>
+          <h2 className={styles.heading2}>{t("philosophy.title")}</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
   
           <Button styles='mt-10' />
