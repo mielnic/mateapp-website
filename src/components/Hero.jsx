@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles';
 import { discount } from '../assets';
 import { useTranslation } from 'react-i18next';
-import Mate from './mate';
+import Mate from './Mate';
 import GetStarted from './GetStarted';
 
 const hero = () => {
@@ -21,7 +21,7 @@ const hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-light ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-light ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100px] leading-[75px]'>
           {t("hero.smb")}<br className='sm:block hidden'/>{" "}
           <span className='text-gradient font-poppins font-semibold'>{t("hero.solutions")}</span>{" "}
           </h1>
@@ -29,7 +29,7 @@ const hero = () => {
             <GetStarted />
           </div>
         </div>
-        <h1 className='font-poppins font-light ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full'>
+        <h1 className='font-poppins font-light ss:text-[68px] text-[52px] text-dimBlack ss:leading-[100px] leading-[75px] w-full'>
         {t("hero.smb_close")}
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
@@ -38,7 +38,7 @@ const hero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-12 mr-12 relative`}>
         <Mate className='w-[50%] h-[auto] relative z-[5]' />
-        <div className='absolute z-[0] w-[60%] h-[60%] top-12 yellow__gradient'/>
+        <div className='absolute z-[0] w-[60%] h-[60%] top-20 green__gradient'/>
         <div className='absolute z-[1] w-[100%] h-[70%] rounded-full bottom-30 white__gradient'/>
         <div className='absolute z-[0] w-[50%] h-[50%] right-30 bottom-10 blue__gradient'/>
       </div>

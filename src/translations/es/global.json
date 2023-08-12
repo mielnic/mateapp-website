@@ -10,7 +10,7 @@
     "hero":{
         "solutions": "simples",
         "smb": "apps",
-        "smb_close": "profesionales",
+        "smb_close": "empresariales",
         "pitch_a": "MateApp es una familia de aplicaciones orientada a la pequeña empresa, estudios profesionales y asociaciones.",
         "pitch_b": "Las Apps de MateApp proporcionan soluciones concretas a problemáticas específicas de manera eficiente y sencilla, desde una interfase minimalista y multi-dispositivo."
     },
@@ -18,10 +18,52 @@
     "wins":{
         "simple" : "Fácil.",
         "pragmatic": "Pragmático.",
-        "efficient": "Efficiente."
+        "efficient": "Eficiente."
     },
 
     "philosophy": {
-        "title" : "Nuestra Filosofía"
+        "title" : "Nuestra Filosofía",
+        "quote" : "\"Al parecer, la perfección no se alcanza cuando no hay nada que agregar, sino cuando no hay nada que quitar.\"",
+        "author" : "- Antoine de Saint Exupéry",
+        "text" : "Es de esta manera que pensamos nuestras Apps. Herramientas simples, que hacen mas fácil la tarea."
+    },
+
+    "features":{
+        "lean" : "Lean",
+        "lean_text" : "Las funciones necesarias para el trabajo, sin las que eventualmente se prodrían precisar.",
+        "streamlined" : "Streamlined",
+        "streamlined_text" : "Flujos sencillos, estructuras de datos de validación permisiva y funciones de búsqueda avanzadas.",
+        "minimalist" : "Minimalista",
+        "minimalist_text" : "Interfase minimalista, de lectura e interacción sencilla aún en las pantallas mas pequeñas."
+    },
+
+    "timesheet":{
+        "title_1" : "La productividad de su",
+        "title_2" : " a dos \"clicks\".",
+        "text" : " Registre las actividades diarias con facilidad desde cualquier dispositivo. Analice la dedicación y productividad individual y colectiva, con objetivos mensuales configurables individualmente. Monitoree el estado de los proyectos, el tiempo dedicado y el remanente al presupuestado. Tenga a mano información de los proyectos en curso y el historial de los clientes para tomar mejores decisiones.",
+        "button" : "MateApp Timesheet en Detalle"
+    },
+
+    "directory":{
+        "title_1" : "Contactos compartidos",
+        "title_2" : " con su equipo.",
+        "text" : "MateApp Directory es una directorio simple para grupos de trabajo que desean compartir contactos en información de clientes y contratistas, pero no necesitan de las fucniones de gestión de ciclo de ventas incluidas en las herramientas de CRM, o bien precisan una herramienta complementaria segregada del CRM para otro tipo de contactos, como por ejemplo proveedores o contratistas.",
+        "button" : "MateApp Directory en Detalle"
+    },
+
+    "future":{
+        "title" : "Nuestro \"Roadmap\"",
+        "text" : "Estamos trabajando con intensidad para expandir nuestro portafolio de Apps. Esto es un avance de lo que estamos desarrollando.",
+        "crm_content": "Un sistema de CRM B2B, para oportunidades de negocio complejas y ciclos de venta prolonagdos, que incluye planificación de estrategia de cuenta y gestión de documentos.",
+        "crm_name": "MateApp CRM",
+        "crm_title": "CRM de Proyectos",
+        "club_content": "Una App para clubes y asociaciones, para gestión de membresías, cuotas sociales, reserva de recursos y comunicación societaria.",
+        "club_name": "MateApp Club",
+        "club_title": "Clubes y Asociaciones"
+    },
+
+    "services": {
+        "title" : "Customización de Apps",
+        "content" : "Nuestras Apps, si bien cubren un amplio espectro manteniendo su filosofía de diseño, pueden no estar exactamente adaptadas a su negocio. Pero si son \"pret-a-porter\" y pueden ser fácilmente adaptadas a sus necesidadas en forma rápida y a un bajo costo. Para esto cuenta con nuestro servicio de customización. La aplicación adaptada puede ser desplegada en nuestra palataforma SaaS, pero también \"On Premises\" o en su servicio de cloud."
     }
 }

@@ -10,10 +10,10 @@ const FeatureCard = ({icon, title, content, index}) => (
         <img src={icon} alt="icon" className='w-[50%] h-[50%] object-contain' />
       </div>
       <div className='flex-1 flex flex-col ml-3'>
-        <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1'>
+        <h4 className='font-poppins font-semibold text-dimBlack text-[18px] leading-[23px] mb-1'>
           {title}
         </h4>
-        <p className='font-poppins text-dimWhite text-[16px] leading-[24px] mb-1'>
+        <p className='font-poppins text-dimBlack text-[16px] leading-[24px] mb-1'>
           {content}
         </p>
       </div>
@@ -28,13 +28,13 @@ const FeatureCard = ({icon, title, content, index}) => (
       <section id="features" className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>{t("philosophy.title")}</h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5`}> <i>{t("philosophy.quote")}</i> <br /> <b>{t("philosophy.author")}</b> <br /> <br /> {t("philosophy.text")} </p>
   
-          <Button styles='mt-10' />
+          <Button styles='mt-10' content='Get Started' />
         </div>
         <div className={`${layout.sectionImg} flex-col`}>
           {features.map((feature, index) => (
-            <FeatureCard key={feature.id} {...feature} index={index}/>
+            <FeatureCard key={feature.id} icon={feature.icon} title={t(`${feature.title}`)}  content={t(`${feature.content}`)} index={index}/>
           ))}
         </div>
       </section>

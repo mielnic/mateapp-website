@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 import {close, menu} from '../assets';
-import MateClear from './MateClear';
+import Mate from './Mate';
 import { navLinks } from '../constants';
 import { useTranslation } from 'react-i18next';
 
@@ -13,12 +13,12 @@ const Navbar = () => {
 
   return (
     <nav className='f-full flex py-6 justify-between items-center navbar'>
-      <MateClear className='w-[36px] h-[36px]'/>
+      <Mate className='w-[36px] h-[36px]'/>
       <p className={'font-poppins font-normal text-[30px] text-gradient ml-2'}>MateApp</p>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
       {navLinks.map((nav, index) => (
-        <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-5'} text-white`}>
+        <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-5'} text-dimBlack`}>
           <a href={`#${nav.id}`}>
             {t(`${nav.title}`)}
           </a>

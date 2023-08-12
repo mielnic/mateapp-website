@@ -1,4 +1,4 @@
-import { documents, star, send, menu } from "../assets";
+import { documents, star, send, crm, club } from "../assets";
 
 export const navLinks = [
     {
@@ -6,12 +6,12 @@ export const navLinks = [
       title: "navbar.home",
     },
     {
-      id: "directory",
-      title: "navbar.directory",
-    },
-    {
       id: "timesheet",
       title: "navbar.timesheet",
+    },
+    {
+      id: "directory",
+      title: "navbar.directory",
     },
     {
       id: "future",
@@ -42,23 +42,37 @@ export const navLinks = [
     {
       id: "feature-1",
       icon: documents,
-      title: "principles.lean",
-      content:
-        "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      title: "features.lean",
+      content: "features.lean_text",
     },
     {
       id: "feature-2",
       icon: send,
-      title: "principles.streamlined",
-      content:
-        "We take proactive steps make sure your information and transactions are secure.",
+      title: "features.streamlined",
+      content: "features.streamlined_text",
     },
     {
       id: "feature-3",
       icon: star,
-      title: "principles.streamlined",
-      content:
-        "A balance transfer credit card can save you a lot of money in interest charges.",
+      title: "features.minimalist",
+      content: "features.minimalist_text",
+    },
+  ];
+
+  export const future = [
+    {
+      id: "future-1",
+      content: "future.crm_content",
+      name: "future.crm_name",
+      title: "future.crm_title",
+      img: crm,
+    },
+    {
+      id: "future-2",
+      content: "future.club_content",
+      name: "future.club_name",
+      title: "future.club_title",
+      img: club,
     },
   ];
   

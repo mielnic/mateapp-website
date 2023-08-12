@@ -7,7 +7,7 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="Send.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,16 +26,16 @@
      showgrid="false"
      inkscape:zoom="25.90625"
      inkscape:cx="16.482509"
-     inkscape:cy="16.0193"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="1672"
-     inkscape:window-y="-8"
+     inkscape:cy="16"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
+     inkscape:window-x="-8"
+     inkscape:window-y="18"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <path
      d="M31.4966 0.931172C30.6963 0.109757 29.5118 -0.196261 28.4074 0.125863L2.65282 7.61524C1.48754 7.93897 0.661604 8.8683 0.439113 10.0489C0.21182 11.2504 1.00574 12.7757 2.04297 13.4135L10.0959 18.3629C10.9218 18.8702 11.9878 18.743 12.6713 18.0537L21.8927 8.77488C22.3569 8.2917 23.1252 8.2917 23.5894 8.77488C24.0536 9.24196 24.0536 9.99895 23.5894 10.4821L14.352 19.7625C13.6669 20.4503 13.5389 21.5213 14.0431 22.3524L18.9635 30.486C19.5397 31.4524 20.5321 32 21.6206 32C21.7486 32 21.8927 32 22.0207 31.9839C23.2693 31.8228 24.2617 30.9692 24.6298 29.7612L32.2649 4.03967C32.6011 2.94445 32.297 1.75259 31.4966 0.931172"
      fill="#00F6FF"
      id="path2"
-     style="fill:#d4ff2a" />
+     style="fill:#29891a;fill-opacity:1" />
 </svg>
