@@ -10,6 +10,10 @@ import dir from './DIR.png';
 import crm from './crm.svg';
 import club from './club.svg';
 import code from './code.svg';
+import facebook from "./facebook.svg";
+import instagram from "./instagram.svg";
+import linkedin from "./linkedin.svg";
+import twitter from "./twitter.svg";
 
 export {
     menu,
@@ -24,4 +28,8 @@ export {
     crm,
     club,
     code,
+    facebook,
+    instagram,
+    twitter,
+    linkedin,
 };

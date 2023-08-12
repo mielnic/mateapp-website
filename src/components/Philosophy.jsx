@@ -30,7 +30,7 @@ const FeatureCard = ({icon, title, content, index}) => (
           <h2 className={styles.heading2}>{t("philosophy.title")}</h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}> <i>{t("philosophy.quote")}</i> <br /> <b>{t("philosophy.author")}</b> <br /> <br /> {t("philosophy.text")} </p>
   
-          <Button styles='mt-10' content='Get Started' />
+          <Button styles='mt-10' content={t("philosophy.button")} />
         </div>
         <div className={`${layout.sectionImg} flex-col`}>
           {features.map((feature, index) => (

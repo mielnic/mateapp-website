@@ -16,8 +16,8 @@ const hero = () => {
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
           <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
           <p className={`${styles.paragraph} ml-2`}>
-          <span className='text-black'>20%</span> Discount for {" "}
-          <span className='text-black'>1 Month</span> Account
+          <span className='text-black'>{t("hero.discount_1")}</span> {t("hero.discount_2")} {" "}
+          <span className='text-black'>{t("hero.discount_3")}</span> {t("hero.discount_4")}
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>

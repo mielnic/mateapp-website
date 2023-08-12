@@ -12,7 +12,11 @@
         "smb": "lean",
         "smb_close": "solutions",
         "pitch_a": "MateApp is a set of solutions targeted to the small business, offices and small organizations.",
-        "pitch_b": "MateApps deliver solutions to specific business tasks without complexity through a minimalist responsive interface."
+        "pitch_b": "MateApps deliver solutions to specific business tasks without complexity through a minimalist responsive interface.",
+        "discount_1": "Try It",
+        "discount_2": "FREE",
+        "discount_3": "for 30",
+        "discount_4": "Days"
     },
 
     "wins":{
@@ -25,7 +29,8 @@
         "title" : "Our Philosopy",
         "quote" : "\"It seems that perfection is reached not when there is nothing left to add, but when there is nothing left to take away.\"",
         "author" : "- Antoine de Saint Exupéry",
-        "text" : "It is the way of our Apps. Simple tools, to make the job simple."
+        "text" : "It is the way of our Apps. Simple tools, to make the job simple.",
+        "button" : "Online Demo!"
     },
 
     "features":{
@@ -41,14 +46,14 @@
         "title_1" : "Your team productivity",
         "title_2" : " two clicks away.",
         "text" : "Log workday activities from any device. Track individual and total productivity and workload, with per-resource configurable monthly targets. Monitor project status, time allocated to the project & time remaining to the project budget. Both recurrent & one-time projects are supported. Have an insight into customer history & ongoing projects to better support business decisions.",
-        "button" : "MateApp Timesheet in Detail"
+        "button" : "Get MateApp Timesheet for $9.99 monthly."
     },
 
     "directory":{
         "title_1" : "Contact sharing",
         "title_2" : " for your team.",
         "text" : "MateApp Directory is a simple directory for workgroups that want to share a contact database but are neither willing to deploy a CRM, nor they find practical the contact sharing capabilities of other tools, or they need a complementary tool for contacts not to be shared in a CRM.",
-        "button" : "MateApp Directory in Detail"
+        "button" : "Get MateApp Timesheet for $3.99 monthly."
     },
 
     "future":{
@@ -65,5 +70,19 @@
     "services": {
         "title" : "App Customization",
         "content" : "Although our Apps cover a wide range of users without comproming its design philosophy, there is no \"one size fits all \". However, they are \"pret-a-porter\" and can be easily tailored to suit your special requierements. For that purpose our customization service is available. The resulting application can be deployer to our SaaS platform, on premises or on your cloud provider."
+    },
+
+    "footer": {
+        "1.title" : "Links",
+        "1.1.name" : "How it Works",
+        "1.2.name" : "Platform",
+        "1.3.name" : "Terms & Services",
+        "2.title" : "Customers",
+        "2.1.name" : "User Center",
+        "2.2.name" : "Support",
+        "3.title" : "Community",
+        "3.1.name" : "Suggestions",
+        "3.2.name" : "Blog",
+        "3.3.name" : "Newsletters"
     }
 }

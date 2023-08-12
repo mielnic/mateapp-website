@@ -1,4 +1,4 @@
-import { documents, star, send, crm, club } from "../assets";
+import { documents, star, send, crm, club, facebook, instagram, linkedin, twitter } from "../assets";
 
 export const navLinks = [
     {
@@ -75,4 +75,79 @@ export const navLinks = [
       img: club,
     },
   ];
+
+  export const footerLinks = [
+    {
+      title: "footer.1.title",
+      links: [
+        {
+          name: "footer.1.1.name",
+          link: "https://www.hoobank.com/how-it-works/",
+        },
+        {
+          name: "footer.1.2.name",
+          link: "https://www.hoobank.com/create/",
+        },
+        
+        {
+          name: "footer.1.3.name",
+          link: "https://www.hoobank.com/terms-and-services/",
+        },
+      ],
+    },
+    {
+      title: "footer.2.title",
+      links: [
+        {
+          name: "footer.2.1.name",
+          link: "https://www.hoobank.com/explore/",
+        },
+        {
+          name: "footer.2.2.name",
+          link: "https://www.hoobank.com/help-center/",
+        },
+      ],
+    },
+    {
+      title: "footer.3.title",
+      links: [
+        {
+          name: "footer.3.1.name",
+          link: "https://www.hoobank.com/suggestions/",
+        },
+        {
+          name: "footer.3.2.name",
+          link: "https://www.hoobank.com/blog/",
+        },
+        {
+          name: "footer.3.3.name",
+          link: "https://www.hoobank.com/newsletters/",
+        },
+      ],
+    },
+  ];
+  
+  export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "social-media-2",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "social-media-3",
+      icon: twitter,
+      link: "https://www.twitter.com/",
+    },
+    {
+      id: "social-media-4",
+      icon: linkedin,
+      link: "https://www.linkedin.com/",
+    },
+  ];
+  
   

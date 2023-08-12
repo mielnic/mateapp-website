@@ -19,7 +19,7 @@ const Services = () => {
         <Button content='Contact Us'/>
       </div>
     </div>
-    <div className={`${styles.flexCenter} max-w-[200px] md:block hidden ml-10 mt-10`}>
+    <div className={`${styles.flexCenter} max-w-[200px] md:block hidden ml-10`}>
         <img src={code} alt="code" />
     </div>
   </section>

@@ -12,7 +12,11 @@
         "smb": "apps",
         "smb_close": "empresariales",
         "pitch_a": "MateApp es una familia de aplicaciones orientada a la pequeña empresa, estudios profesionales y asociaciones.",
-        "pitch_b": "Las Apps de MateApp proporcionan soluciones concretas a problemáticas específicas de manera eficiente y sencilla, desde una interfase minimalista y multi-dispositivo."
+        "pitch_b": "Las Apps de MateApp proporcionan soluciones concretas a problemáticas específicas de manera eficiente y sencilla, desde una interfase minimalista y multi-dispositivo.",
+        "discount_1": "Pruébelo",
+        "discount_2": "GRATIS",
+        "discount_3": "por 30",
+        "discount_4": "Días"
     },
 
     "wins":{
@@ -25,7 +29,8 @@
         "title" : "Nuestra Filosofía",
         "quote" : "\"Al parecer, la perfección no se alcanza cuando no hay nada que agregar, sino cuando no hay nada que quitar.\"",
         "author" : "- Antoine de Saint Exupéry",
-        "text" : "Es de esta manera que pensamos nuestras Apps. Herramientas simples, que hacen mas fácil la tarea."
+        "text" : "Es de esta manera que pensamos nuestras Apps. Herramientas simples, que hacen mas fácil la tarea.",
+        "button" : "¡Demo Online!"
     },
 
     "features":{
@@ -39,16 +44,16 @@
 
     "timesheet":{
         "title_1" : "La productividad de su",
-        "title_2" : " a dos \"clicks\".",
+        "title_2" : " equipo a dos \"clicks\".",
         "text" : " Registre las actividades diarias con facilidad desde cualquier dispositivo. Analice la dedicación y productividad individual y colectiva, con objetivos mensuales configurables individualmente. Monitoree el estado de los proyectos, el tiempo dedicado y el remanente al presupuestado. Tenga a mano información de los proyectos en curso y el historial de los clientes para tomar mejores decisiones.",
-        "button" : "MateApp Timesheet en Detalle"
+        "button" : "Tenga MateApp Timesheet por $9.99 mensuales."
     },
 
     "directory":{
         "title_1" : "Contactos compartidos",
         "title_2" : " con su equipo.",
         "text" : "MateApp Directory es una directorio simple para grupos de trabajo que desean compartir contactos en información de clientes y contratistas, pero no necesitan de las fucniones de gestión de ciclo de ventas incluidas en las herramientas de CRM, o bien precisan una herramienta complementaria segregada del CRM para otro tipo de contactos, como por ejemplo proveedores o contratistas.",
-        "button" : "MateApp Directory en Detalle"
+        "button" : "Tenga MateApp Directory por $3.99 mensuales."
     },
 
     "future":{
@@ -65,5 +70,19 @@
     "services": {
         "title" : "Customización de Apps",
         "content" : "Nuestras Apps, si bien cubren un amplio espectro manteniendo su filosofía de diseño, pueden no estar exactamente adaptadas a su negocio. Pero si son \"pret-a-porter\" y pueden ser fácilmente adaptadas a sus necesidadas en forma rápida y a un bajo costo. Para esto cuenta con nuestro servicio de customización. La aplicación adaptada puede ser desplegada en nuestra palataforma SaaS, pero también \"On Premises\" o en su servicio de cloud."
+    },
+
+    "footer": {
+        "1.title" : "Links",
+        "1.1.name" : "Como Funciona",
+        "1.2.name" : "Plataforma",
+        "1.3.name" : "Terminos & Condiciones",
+        "2.title" : "Clientes",
+        "2.1.name" : "Centro del Usuario",
+        "2.2.name" : "Soporte",
+        "3.title" : "Comunidad",
+        "3.1.name" : "Sugerencias",
+        "3.2.name" : "Blog",
+        "3.3.name" : "Newsletters"
     }
 }
