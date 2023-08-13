@@ -13,13 +13,13 @@ const Navbar = () => {
 
   return (
     <nav className='f-full flex py-6 justify-between items-center navbar'>
-      <Mate className='w-[36px] h-[36px]'/>
+      <a href="/"><Mate className='w-[36px] h-[36px]'/></a>
       <p className={'font-poppins font-normal text-[30px] text-gradient ml-2'}>MateApp</p>
       
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
       {navLinks.map((nav, index) => (
         <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-5'} text-dimBlack`}>
-          <a href={`#${nav.id}`}>
+          <a href={`/#${nav.id}`}>
             {t(`${nav.title}`)}
           </a>
         </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-lime-gradient
+          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-green-gradient
           absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
         <ul className='list-none flex flex-col justify-end items-center flex-1'>

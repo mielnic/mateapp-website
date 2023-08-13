@@ -16,7 +16,7 @@ const Services = () => {
       </h2>
       <p className={`${styles.paragraph} mt-5`}>{t("services.content")}</p>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-10 mt-10`}>
-        <Button content='Contact Us'/>
+        <Button content='Contact Us' link='/contact'/>
       </div>
     </div>
     <div className={`${styles.flexCenter} max-w-[200px] md:block hidden ml-10`}>

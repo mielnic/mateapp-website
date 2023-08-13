@@ -83,6 +83,10 @@
   background: linear-gradient(144deg, #acabab 0%, #788a75 100%);
 }
 
+.bg-grey-gradient {
+  background: var(--grey-gradient);
+}
+
 .green__gradient {
   background: rgba(142,192,16, 1);
   filter: blur(5rem);
