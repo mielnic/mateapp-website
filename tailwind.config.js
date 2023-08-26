@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         // primary: "#0b4002",
         // primary: "#d1e7dd",
-        primary: "#d1e7d4",
+        // primary: "#d1e7d4",
+        // primary: "#edfaef",
+        primary: "#e3ffe7",
         secondary: "#29891a",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",

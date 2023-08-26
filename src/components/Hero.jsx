@@ -38,9 +38,9 @@ const hero = () => {
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-12 mr-12 relative`}>
         <Mate className='w-[50%] h-[auto] relative z-[5]' />
-        <div className='absolute z-[0] w-[60%] h-[60%] top-20 green__gradient'/>
+        <div className='absolute z-[0] w-[50%] h-[70%] top-30 green__gradient'/>
         <div className='absolute z-[1] w-[100%] h-[70%] rounded-full bottom-30 white__gradient'/>
-        <div className='absolute z-[0] w-[50%] h-[50%] right-30 bottom-10 blue__gradient'/>
+        <div className='absolute z-[0] w-[50%] h-[60%] right-30 bottom-10 blue__gradient'/>
       </div>
 
     </section>
