@@ -16,7 +16,7 @@ const Footer = () => {
             <Mate className='w-[36px] h-[36px]' />
             <p className={'font-poppins font-normal text-[30px] text-gradient ml-2'}>MateApp</p>
           </div>
-          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Lean Business Solutions</p>
+          <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Lean Solutions for the Small Business</p>
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
           {footerLinks.map((footerLink) => (
