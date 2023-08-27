@@ -3,7 +3,7 @@ import styles from '../styles'
 import { arrowUp } from '../assets'
 
 const GetStarted = () => (
-  <a href="mailto:contact@mateapp.ar">
+  <a href="mailto:contacto@mateapp.ar">
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-green-gradient p-[2px] cursor-pointer`}>
       
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>

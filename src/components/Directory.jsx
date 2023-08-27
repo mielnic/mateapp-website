@@ -13,7 +13,7 @@ const Directory = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>{t("directory.title_1")}<br className='sm:block hidden'/>{t("directory.title_2")}</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{t("directory.text")}</p>
-        <Button styles="mt-10" content={t("directory.button")}/>
+        <Button styles="mt-10" content={t("directory.button")} link="mailto:contacto@mateapp.ar"/>
       </div>
       <div className={layout.sectionImg}>
         <img src={dir} alt="directory" className='w-[80%]'/>

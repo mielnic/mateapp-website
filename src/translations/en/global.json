@@ -57,7 +57,7 @@
     },
 
     "future":{
-        "title" : "Nuestro \"Roadmap\"",
+        "title" : "Our Roadmap",
         "text" : "We are working intensely to expand our App portfolio. Here is a teaser about what we are currently developing.",
         "crm_content": "A CRM system for B2B complex, long sales cycle business opportunities, with account strategy planning, document management & more.",
         "crm_name": "MateApp CRM",
@@ -69,7 +69,7 @@
 
     "services": {
         "title" : "App Customization",
-        "content" : "Although our Apps cover a wide range of users without comproming its design philosophy, there is no \"one size fits all \". However, they are \"pret-a-porter\" and can be easily tailored to suit your special requierements. For that purpose our customization service is available. The resulting application can be deployer to our SaaS platform, on premises or on your cloud provider.",
+        "content" : "Although our Apps cover a wide range of users without comproming its design philosophy, there is no \"one size fits all\". However, they are \"pret-a-porter\" and can be easily tailored to suit your special requierements. For that purpose our customization service is available. The resulting application can be deployer to our SaaS platform, on premises or on your cloud provider.",
         "button" : "Contact Us"
     },
 
