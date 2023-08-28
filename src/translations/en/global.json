@@ -45,14 +45,14 @@
     "timesheet":{
         "title_1" : "Your team productivity",
         "title_2" : " two clicks away.",
-        "text" : "Log workday activities from any device. Track individual and total productivity and workload, with per-resource configurable monthly targets. Monitor project status, time allocated to the project & time remaining to the project budget. Both recurrent & one-time projects are supported. Have an insight into customer history & ongoing projects to better support business decisions.",
+        "text" : "Log workday activities from any device with MateApp TIMESHEET. Track individual and total productivity and workload, with per-resource configurable monthly targets. Monitor project status, time allocated to the project & time remaining to the project budget. Both recurrent & one-time projects are supported. Have an insight into customer history & ongoing projects to better support business decisions.",
         "button" : "Request 30 Days Free Trial!"
     },
 
     "directory":{
         "title_1" : "Contact sharing",
         "title_2" : " for your team.",
-        "text" : "MateApp Directory is a simple directory for workgroups that want to share a contact database but are neither willing to deploy a CRM, nor they find practical the contact sharing capabilities of other tools, or they need a complementary tool for contacts not to be shared in a CRM.",
+        "text" : "MateApp DIRECTORY is a simple directory for workgroups that want to share a contact database but are neither willing to deploy a CRM, nor they find practical the contact sharing capabilities of other tools, or they need a complementary tool for contacts not to be shared in a CRM.",
         "button" : "Request 30 Days Free Trial!"
     },
 
@@ -89,9 +89,17 @@
 
     "contact": {
         "title" : "Contact Us",
-        "name" : "Name:",
+        "first_name" : "First Name:",
+        "last_name" : "Last Name:",
         "email" : "Email:",
         "message" : "Message:",
-        "submit" : "Submit"
+        "submit" : "Submit",
+        "thanks" : "Tank You!",
+        "thks_phrase" : "We'll get back to you promptly.",
+        "error" : "Something went wrong.... Please try again later."
+    },
+
+    "general":{
+        "construction" : "We're building this section. Please come back soon!" 
     }
 }

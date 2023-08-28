@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
       ))}
       </ul>
-      <div className={`sm:flex hidden`}>
+      <div >
         <button onClick={() => i18n.changeLanguage(lan)} className={'font-poppins font-normal text-[20px] text-gradient ml-10'}>{lan.toUpperCase()}</button>
       </div>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
         />
 
         <div
-          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-green-gradient
+          className={`${toggle ? 'flex' : 'hidden'} p-6 bg-grey-gradient
           absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
         <ul className='list-none flex flex-col justify-end items-center flex-1'>

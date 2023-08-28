@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import styles from '../styles';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 function ContactForm() {
 
   const[t, i18n] = useTranslation("global")
 
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    firstName: '',
+    lastName:'',
+    emailAddress: '',
     message: ''
   });
 
@@ -17,40 +21,70 @@ function ContactForm() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Here you can add code to submit the form data to a server or perform other actions
-    console.log('Form data submitted:', formData);
+    try {
+      const response = await fetch('https://crm.mateapp.com.ar/api/v1/LeadCapture/817294203210754ffc9eca1444e92c10', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        console.log('Form data submitted successfully');
+        navigate('/thankyou');
+      } else {
+        console.error('Failed to submit form data');
+        navigate('/contacterror');
+      }
+      } catch (error) {
+        console.error('An error occurred:', error);
+        navigate('/contacterror');
+      }
   };
+  
 
   return (
-    <section id='services' className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col`}>
+    <section id='contact_form' className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col`}>
     <div className='bg-grey-gradient rounded-[20px] py-10 px-20 box-shadow'>
       <p className={`${styles.heading2}`}>{t("contact.title")}</p>
       <form onSubmit={handleSubmit}>
         <div className='grid grid-cols-1 gap-6 sm:min-w-[470px]'>
-          <label htmlFor="name" className='block'> <span className='text-dimBlack font-poppins font-medium'>{t("contact.name")}</span>
+          <label htmlFor="firstName" className='block'> <span className='text-dimBlack font-poppins font-medium'>{t("contact.first_name")}</span>
           <input
             type="text"
-            id="name"
-            name="name"
+            id="firstName"
+            name="firstName"
             className={`${styles.textInput}`}
-            value={formData.name}
+            value={formData.firstName}
             onChange={handleInputChange}
             required
             />
             </label>
-          <label htmlFor="email" className='block'><span className='text-dimBlack font-poppins font-medium'>{t("contact.email")}</span>
+          <label htmlFor="lastName" className='block'> <span className='text-dimBlack font-poppins font-medium'>{t("contact.last_name")}</span>
           <input
-            type="email"
-            id="email"
-            name="email"
+            type="text"
+            id="lastName"
+            name="lastName"
             className={`${styles.textInput}`}
-            value={formData.email}
+            value={formData.lastName}
             onChange={handleInputChange}
             required
-          />
-          </label>
+            />
+            </label>
+          <label htmlFor="emailAddress" className='block'><span className='text-dimBlack font-poppins font-medium'>{t("contact.email")}</span>
+          <input
+            type="email"
+            id="emailAddress"
+            name="emailAddress"
+            className={`${styles.textInput}`}
+            value={formData.emailAddress}
+            onChange={handleInputChange}
+            required
+            />
+            </label>
 
           <label htmlFor="message" className='block'><span className='text-dimBlack font-poppins font-medium'>{t("contact.message")}</span>
           <textarea

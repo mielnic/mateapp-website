@@ -19,9 +19,9 @@ const Timesheet = () => {
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>{t("timesheet.title_1")}<br className='sm:block hidden'/>{t("timesheet.title_2")}</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{t("timesheet.text")}</p>
+      <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>{t("timesheet.text")}</p>
       <div className='flex flex-row flex-warp sm:mt-10 mt-6'>
-      <Button content={t("timesheet.button")} link="mailto:contacto@mateapp.ar"/>
+      <Button content={t("timesheet.button")} link="/contact"/>
       </div>
     </div>
   </section>

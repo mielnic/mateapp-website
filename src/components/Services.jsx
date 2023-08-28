@@ -11,12 +11,12 @@ const Services = () => {
   return (
     <section id='services' className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-grey-gradient rounded-[20px] box-shadow`}>
     <div className='flex-1 flex flex-col'>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading3}`}>
         {t("services.title")}
       </h2>
       <p className={`${styles.paragraph} mt-5`}>{t("services.content")}</p>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-10 mt-10`}>
-        <Button content={t("services.button")} link='mailto:contacto@mateapp.ar'/>
+        <Button content={t("services.button")} link={'/contact'}/>
       </div>
     </div>
     <div className={`${styles.flexCenter} max-w-[200px] md:block hidden ml-10`}>

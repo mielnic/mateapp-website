@@ -32,7 +32,7 @@ const hero = () => {
         <h1 className='font-poppins font-light ss:text-[68px] text-[52px] text-dimBlack ss:leading-[100px] leading-[75px] w-full'>
         {t("hero.smb_close")}
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
+        <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
         </p>
       </div>
 

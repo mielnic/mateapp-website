@@ -2,7 +2,7 @@ import React from 'react'
 
 const FutureCard = ({ content, name, title, img }) => {
   return (
-    <div className='flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 future-card'>
+    <div className='flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[320px] md:mr-10 sm:mr-5 mr-0 my-5 future-card'>
       <p className='font-poppins font-normal text-[18px] leading-[32px] text-dimBlack mb-10'>
         {content}
       </p>

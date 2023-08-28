@@ -28,9 +28,9 @@ const FeatureCard = ({icon, title, content, index}) => (
       <section id="features" className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>{t("philosophy.title")}</h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}> <i>{t("philosophy.quote")}</i> <br /> <b>{t("philosophy.author")}</b> <br /> <br /> {t("philosophy.text")} </p>
+          <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}> <i>{t("philosophy.quote")}</i> <br /> <b>{t("philosophy.author")}</b> <br /> <br /> {t("philosophy.text")} </p>
   
-          <Button styles='mt-10' content={t("philosophy.button")} link="mailto:contact@mateapp.ar"/>
+          <Button styles='mt-10' content={t("philosophy.button")} link="/contact"/>
         </div>
         <div className={`${layout.sectionImg} flex-col`}>
           {features.map((feature, index) => (

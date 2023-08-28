@@ -15,7 +15,7 @@ const Future = () => {
     <div className='w-full flex justify-around items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
       <h1 className={styles.heading2}>{t("future.title")}</h1>
       <div className='w-full md:mt-0 mt-6'>
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>{t("future.text")}</p>
+        <p className={`${styles.paragraph} text-left md:max-w-[470px]`}>{t("future.text")}</p>
       </div>
     </div>
 
