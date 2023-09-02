@@ -7,6 +7,7 @@ import NoPage from "./pages/NoPage";
 import ThankYouPage from "./pages/ThankYouPage";
 import ContactError from "./pages/ContactError";
 import ConstructionPage from "./pages/ConstructionPage";
+import TimesheetPage from "./pages/TimesheetPage";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="*" element={<NoPage/>} />
           <Route path="/contacterror" element={<ContactError/>} />
           <Route path="/construction" element={<ConstructionPage />} />
+          <Route path="/timesheet" element={<TimesheetPage />} />
         </Routes>
       </BrowserRouter>
     </div>

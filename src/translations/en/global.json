@@ -46,7 +46,8 @@
         "title_1" : "Your team productivity",
         "title_2" : " two clicks away.",
         "text" : "Log workday activities from any device with MateApp TIMESHEET. Track individual and total productivity and workload, with per-resource configurable monthly targets. Monitor project status, time allocated to the project & time remaining to the project budget. Both recurrent & one-time projects are supported. Have an insight into customer history & ongoing projects to better support business decisions.",
-        "button" : "Request 30 Days Free Trial!"
+        "button" : "Request 30 Days Free Trial!",
+        "readmore" : " Read More >"
     },
 
     "directory":{
@@ -101,5 +102,24 @@
 
     "general":{
         "construction" : "We're building this section. Please come back soon!" 
+    },
+
+    "tsdetail" : {
+        "1t" : "MateApp Timesheet",
+        "2t" : "Summary",
+        "3p" : "Timesheet is an application for tracking time allocation of human resources. If your organization generates revenue from individuals providing various types of services, time allocation is the essential KPI of your team or organization. Timesheet enables you to quickly access information regarding:",
+        "4ul1t" : "Individual Productivity: ",
+        "5ul1p" : "Timesheet helps you understand the workload of both your group and each individual, enabling better support for business decisions.",
+        "6ul2t" : "Project Budget Accuracy: ",
+        "7ul2p" : "Most service contracts, whether they are one-time or recurrent, are quoted based on the estimated resources needed to complete the job. Timesheet help you effectively monitor resource and project dedication in relation to each project goal.",
+        "8ul3t" : "Customer Profitability: ",
+        "9ul3p" : "Customer relationships are rarely straightforward; they exist in shades of gray. Understanding the nuances of your business history with each customer is crucial for decision-making. Timesheet offers an additional indicator for this purpose: the historical balance of project budget accuracy outcomes for each customer.",
+        "10p" : "Timesheet is built around three principles: ",
+        "11ul1t" : "Simple and Trusted Timesheet Logging: ",
+        "12ul1p" : "Work can be reported from any device using an extremely simple and responsive form. The philosophy behind the Timesheet is built on trust, and it does not track people's activities in any manner. Each person reports their time dedication within the timeframe requested by management.",
+        "13ul2t" : "Hour as the Time Unit: ",
+        "14ul2p" : "Timesheet employs the hour as the standard time unit. The hour is a universally accepted unit used in the planning and budgeting of human resources. Therefore, we believe that adding hour fractions in time reporting holds no significance within the application's scope.",
+        "15ul3t" : "Monthly Periods: ",
+        "16ul3p" : "Timesheet employs the hour as the standard time unit. The hour is a universally accepted unit used in the planning and budgeting of human resources. Therefore, we believe that adding hour fractions in time reporting holds no significance within the application's scope."
     }
 }

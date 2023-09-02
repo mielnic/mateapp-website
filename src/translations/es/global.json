@@ -46,14 +46,15 @@
         "title_1" : "La productividad de su",
         "title_2" : " equipo a dos \"clicks\".",
         "text" : " Registre las actividades diarias con facilidad desde cualquier dispositivo con MateApp TIMESHEET. Analice la dedicación y productividad individual y colectiva, con objetivos mensuales configurables individualmente. Monitoree el estado de los proyectos, el tiempo dedicado y el remanente al presupuestado. Tenga a mano información de los proyectos en curso y el historial de los clientes para tomar mejores decisiones.",
-        "button" : "Solicítelo gratis por 30 días."
+        "button" : "Pruébelo gratis por 30 días.",
+        "readmore" : " Leer Más >"
     },
 
     "directory":{
         "title_1" : "Contactos compartidos",
         "title_2" : " con su equipo.",
-        "text" : "MateApp DIRECTORY es una directorio simple para grupos de trabajo que desean compartir contactos en información de clientes y contratistas, pero no necesitan de las fucniones de gestión de ciclo de ventas incluidas en las herramientas de CRM, o bien precisan una herramienta complementaria segregada del CRM para otro tipo de contactos, como por ejemplo proveedores o contratistas.",
-        "button" : "Solicítelo gratis por 30 días."
+        "text" : "MateApp DIRECTORY es una directorio simple para grupos de trabajo que desean compartir contactos en información de clientes y contratistas, pero no necesitan de las funciones de gestión de ciclo de ventas incluidas en las herramientas de CRM, o bien precisan una herramienta complementaria segregada del CRM para otro tipo de contactos, como por ejemplo proveedores o contratistas.",
+        "button" : "Pruébelo gratis por 30 días."
     },
 
     "future":{
@@ -101,5 +102,24 @@
 
     "general":{
         "construction" : "Estamos construyendo esta sección. ¡Por favor vuelva pronto!" 
+    },
+
+    "tsdetail" : {
+        "1t" : "MateApp Timesheet",
+        "2t" : "Resumen",
+        "3p" : "Timesheet es una aplicación para monitorear el tiempo asignado de los recursos humanos. Si su organización genera ingresos merced a personas que ofrecen diversos tipos de servicios, el tiempo asignado es el KPI fundamental para conocer el desempeño de su equipo u organización Timesheet le permite acceder rápidamente a información relacionada con:",
+        "4ul1t" : "Productividad Individual: ",
+        "5ul1p" : "Timesheet le ayuda a comprender la carga de trabajo de su grupo y de cada individuo, lo que permite un mejor respaldo en las decisiones empresariales.",
+        "6ul2t" : "Presupuestos de los Proyectos: ",
+        "7ul2p" : "La mayoría de los contratos de servicios, ya sean únicos o recurrentes, se cotizan en función de los recursos estimados necesarios para completar el trabajo. Timesheet le ayuda a monitorear de manera efectiva la dedicación de recursos a los proyectos en relación a lo presupuestado.",
+        "8ul3t" : "Rentabilidad de los Clientes: ",
+        "9ul3p" : "Las relaciones con los clientes rara vez son simples. Comprender los matices de la historia de sus negocios con cada cliente es crucial para la toma de decisiones. Timesheet ofrece un indicador adicional para este propósito: el balance histórico se la sumatoria de lo presupuestado en los proyectos del cliente, versus su resultado.",
+        "10p" : "Timesheet se basa en tres principios:",
+        "11ul1t" : "Carga de Horas Simple y de Confianza: ",
+        "12ul1p" : "El trabajo se puede informar desde cualquier dispositivo utilizando un formulario extremadamente simple y multidispositivo. La filosofía detrás de Timesheet se basa en la relación de confianza con el empleado o contratista y el software no rastrea las actividades de las personas de manera alguna. Cada persona informa su dedicación de tiempo conforme a lo convenido con la dirección.",
+        "13ul2t" : "Hora como Unidad de Tiempo: ",
+        "14ul2p" : "Timesheet utiliza la hora como la unidad de tiempo estándar. La hora es ls unidad universalmente aceptada en la planificación y presupuestación de recursos humanos. Por lo tanto, creemos que agregar fracciones de hora en la carga no tiene reelevancia para el resultado esperado de la aplicación.",
+        "15ul3t" : "Períodos Mensuales: ",
+        "16ul3p" : "Timesheet utiliza el mes como el período estándar para el análisis."
     }
 }
