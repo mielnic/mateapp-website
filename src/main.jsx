@@ -11,7 +11,7 @@ const lan = navigator.language.includes("es") ? "es" : "en"
 
 i18next.init({
   interpolation: { escapeValue: false},
-  lng: lan,
+  lng: "es",
   resources: {
     es: {
       global:global_es,

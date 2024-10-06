@@ -1,25 +1,21 @@
-import { documents, star, send, crm, club, facebook, instagram, linkedin, twitter } from "../assets";
+import { documents, star, send, crm, steps, rulers, facebook, instagram, linkedin, twitter } from "../assets";
 
 export const navLinks = [
     {
       id: "home",
       title: "navbar.home",
     },
+    // {
+    //   id: "philosophy",
+    //   title: "navbar.vision",
+    // },
     {
-      id: "timesheet",
-      title: "navbar.timesheet",
+      id: "services",
+      title: "navbar.digital_transformation",
     },
     {
-      id: "directory",
-      title: "navbar.directory",
-    },
-    {
-      id: "future",
-      title: "navbar.future",
-    },
-    {
-        id: "services",
-        title: "navbar.services",
+        id: "solutions",
+        title: "navbar.principles",
     },
   ];
 
@@ -59,21 +55,28 @@ export const navLinks = [
     },
   ];
 
-  export const future = [
+  export const solutions = [
     {
-      id: "future-1",
-      content: "future.crm_content",
-      name: "future.crm_name",
-      title: "future.crm_title",
+      id: "solutions-1",
+      content: "solutions.1_content",
+      name: "solutions.1_name",
+      title: "solutions.1_title",
       img: crm,
     },
     {
-      id: "future-2",
-      content: "future.club_content",
-      name: "future.club_name",
-      title: "future.club_title",
-      img: club,
+      id: "solutions-2",
+      content: "solutions.2_content",
+      name: "solutions.2_name",
+      title: "solutions.2_title",
+      img: steps,
     },
+    {
+      id: "solutions-3",
+      content: "solutions.3_content",
+      name: "solutions.3_name",
+      title: "solutions.3_title",
+      img: rulers,
+    }
   ];
 
   export const footerLinks = [

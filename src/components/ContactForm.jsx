@@ -12,7 +12,7 @@ function ContactForm() {
   const [formData, setFormData] = useState({
     firstName: '',
     lastName:'',
-    emailAddress: '',
+    email: '',
     message: ''
   });
 
@@ -24,7 +24,7 @@ function ContactForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('https://crm.mateapp.com.ar/api/v1/LeadCapture/817294203210754ffc9eca1444e92c10', {
+      const response = await fetch('https://contactos.mateapp.ar/directory/api/leads/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -74,13 +74,13 @@ function ContactForm() {
             required
             />
             </label>
-          <label htmlFor="emailAddress" className='block'><span className='text-dimBlack font-poppins font-medium'>{t("contact.email")}</span>
+          <label htmlFor="email" className='block'><span className='text-dimBlack font-poppins font-medium'>{t("contact.email")}</span>
           <input
             type="email"
-            id="emailAddress"
-            name="emailAddress"
+            id="email"
+            name="email"
             className={`${styles.textInput}`}
-            value={formData.emailAddress}
+            value={formData.email}
             onChange={handleInputChange}
             required
             />

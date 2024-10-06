@@ -12,7 +12,7 @@ import TimesheetPage from "./pages/TimesheetPage";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen bg-primary">
       <BrowserRouter>
         <Routes>
           <Route index element={<Home/>} />

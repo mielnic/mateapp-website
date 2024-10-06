@@ -25,9 +25,9 @@ const Navbar = () => {
         </li>
       ))}
       </ul>
-      <div >
+      {/* <div >
         <button onClick={() => i18n.changeLanguage(lan)} className={'font-poppins font-normal text-[20px] text-gradient ml-10'}>{lan.toUpperCase()}</button>
-      </div>
+      </div> */}
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img src={toggle ? close : menu} 

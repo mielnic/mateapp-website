@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../styles';
-import { discount } from '../assets';
+import { transformation } from '../assets';
 import { useTranslation } from 'react-i18next';
 import Mate from './Mate';
-import GetStarted from './GetStarted';
+import GetStarted from './ContactUs';
 
 const hero = () => {
 
@@ -13,13 +13,14 @@ const hero = () => {
 
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+          <a href="/#services">
         <div className='flex flex-row items-center py-[6px] px-4 bg-grey-gradient rounded-[10px] mb-2'>
-          <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
+          <img src={transformation} alt="discount" className='w-[32px] h-[32px]' />
           <p className={`${styles.paragraph} ml-2`}>
           <span className='text-black'>{t("hero.discount_1")}</span> {t("hero.discount_2")} {" "}
           <span className='text-black'>{t("hero.discount_3")}</span> {t("hero.discount_4")}
           </p>
-        </div>
+        </div></a>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-light ss:text-[72px] text-[52px] text-dimBlack ss:leading-[100px] leading-[75px]'>
           {t("hero.smb")}<br className='sm:block hidden'/>{" "}
@@ -32,7 +33,7 @@ const hero = () => {
         <h1 className='font-poppins font-light ss:text-[68px] text-[52px] text-dimBlack ss:leading-[100px] leading-[75px] w-full'>
         {t("hero.smb_close")}
         </h1>
-        <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
+        <p className={`${styles.paragraph} md:max-w-[450px] mt-5`}>{t("hero.pitch_a")} <br /> {t("hero.pitch_b")}
         </p>
       </div>
 

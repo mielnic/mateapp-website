@@ -1,22 +1,26 @@
 {
     "navbar":{
-        "home": "Inicio",
-        "directory": "Directory",
-        "timesheet": "Timesheet",
-        "future": "Futuro",
-        "services": "Servicios"
+        "home": "Home",
+        "vision": "Visión",
+        "digital_transformation": "Transformación Digital",
+        "principles": "Preceptos"
     },
 
     "hero":{
         "solutions": "simples",
         "smb": "apps",
         "smb_close": "de negocios",
-        "pitch_a": "MateApp es una familia de aplicaciones orientada a la pequeña empresa, estudios profesionales y asociaciones.",
-        "pitch_b": "Las Apps de MateApp proporcionan soluciones concretas a problemáticas específicas de manera eficiente y sencilla, desde una interfase minimalista y multi-dispositivo.",
-        "discount_1": "Pruébelo",
-        "discount_2": "GRATIS",
-        "discount_3": "por 30",
-        "discount_4": "Días"
+        "pitch_a": "MateApp es un desarrollador de software orientado a la pequeña empresa, estudios profesionales y asociaciones.",
+        "pitch_b": "MateApp acompaña a las organizaciones en su proceso de transformación digital, proporcionando soluciones concretas a problemáticas específicas de manera eficiente.",
+        "discount_1": "Transformación",
+        "discount_2": "Digital",
+        "discount_3": "para la",
+        "discount_4": "PyME"
+    },
+
+    "contactus":{
+        "contact":"Contáctenos",
+        "us":""
     },
 
     "wins":{
@@ -26,10 +30,10 @@
     },
 
     "philosophy": {
-        "title" : "Nuestra Filosofía",
+        "title" : "Nuestra Visión",
         "quote" : "\"Al parecer, la perfección no se alcanza cuando no hay nada que agregar, sino cuando no hay nada que quitar.\"",
         "author" : "- Antoine de Saint Exupéry",
-        "text" : "Es de esta manera que pensamos nuestras Apps. Herramientas simples, que hacen mas fácil la tarea.",
+        "text" : "Es de esta manera que pensamos nuestras Soluciones. Herramientas simples, que hacen mas fácil la tarea.",
         "button" : "¡Solicite una Demo!"
     },
 
@@ -57,20 +61,23 @@
         "button" : "Pruébelo gratis por 30 días."
     },
 
-    "future":{
-        "title" : "Nuestro \"Roadmap\"",
-        "text" : "Estamos trabajando con intensidad para expandir nuestro portafolio de Apps. Esto es un avance de lo que estamos desarrollando.",
-        "crm_content": "Un sistema de CRM B2B, para oportunidades de negocio complejas y ciclos de venta prolonagdos, que incluye planificación de estrategia de cuenta y gestión de documentos.",
-        "crm_name": "MateApp CRM",
-        "crm_title": "CRM de Proyectos",
-        "club_content": "Una App para clubes y asociaciones, para gestión de membresías, cuotas sociales, reserva de recursos y comunicación societaria.",
-        "club_name": "MateApp Club",
-        "club_title": "Clubes y Asociaciones"
+    "solutions":{
+        "title" : "Nuestros Preceptos",
+        "text" : "Desarrollamos nuestros proyectos basados en los principios de integración, modularidad y adecuación al la tarea..",
+        "1_content": "Integrar nuevas funcionalidades al dominio digital no debe sustituir sistemas que son eficientes en su función, sino incorporarlos a los nuevos. Nuestro expertise en integración de sistemas protege su inversión.",
+        "1_name": "Integración",
+        "1_title": "Integración de Sistemas",
+        "2_content": "La transformación digital debe ser entendida como un proceso en el cual se orquestan diversas soluciones. Segmentamos el trabajo en base a hitos concretos, que producen resultados visibles.",
+        "2_name": "Modularidad",
+        "2_title": "Mejoras Incrementales",
+        "3_content": "La sobrecarga de funciones y las reglas de negocios foráneas son la norma en las soluciones de software libre o comerciales disponibles. Producimos soluciones a medida en sintonía con nuestra visión.",
+        "3_name": "a Medida",
+        "3_title": "Desarrollo de software a Medida"
     },
 
     "services": {
-        "title" : "Customización de Apps",
-        "content" : "Nuestras Apps, si bien cubren un amplio espectro manteniendo su filosofía de diseño, pueden no estar exactamente adaptadas a su negocio. Pero si son \"pret-a-porter\" y pueden ser fácilmente adaptadas a sus necesidadas en forma rápida y a un bajo costo. Para esto cuenta con nuestro servicio de customización. La aplicación adaptada puede ser desplegada en nuestra palataforma SaaS, pero también \"On Premises\" o en su servicio de cloud.",
+        "title" : "Transformación Digital",
+        "content" : "La Transformación Digital es el cambio asociado a la aplicación de la tecnología informática en todos los aspectos posibles en su organización. En ciertos casos, esto puede referise aplicaciones muy sofisticados de la tecnología. Pero en la mayoría del las pequeñas empresas existe un espacio de mejora extenso, bien sea desconocimiento acerca de la tecnología la posibilita o por la creencia de que determinada solución no aporta una relación favorable de costo/beneficio.",
         "button" : "Contáctenos"
     },
 

@@ -9,7 +9,7 @@ const Services = () => {
   const [t, i18n] = useTranslation("global")
 
   return (
-    <section id='services' className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-grey-gradient rounded-[20px] box-shadow`}>
+    <section id='services' className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-grey-gradient rounded-[15px] box-shadow`}>
     <div className='flex-1 flex flex-col'>
       <h2 className={`${styles.heading3}`}>
         {t("services.title")}
